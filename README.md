@@ -1,5 +1,6 @@
 # Live-Clock-for-Beginner-to-Know-Workflow
-<img width="1910" height="1064" alt="image" src="https://github.com/user-attachments/assets/35de1dac-327f-4567-926d-41865e504e8e" />
+<img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/a85e186e-6a84-4170-a907-506f95c63b0d" />
+
 
 # ⏰ Live Clock Web Service – Java Full Stack Project
 

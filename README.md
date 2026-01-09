@@ -1,4 +1,6 @@
 # Live-Clock-for-Beginner-to-Know-Workflow
+<img width="1910" height="1064" alt="image" src="https://github.com/user-attachments/assets/35de1dac-327f-4567-926d-41865e504e8e" />
+
 # ⏰ Live Clock Web Service – Java Full Stack Project
 
 Perfect! This project demonstrates **how a Spring Boot backend and an HTML/JavaScript frontend are connected** and how a **full-stack application works end to end**.

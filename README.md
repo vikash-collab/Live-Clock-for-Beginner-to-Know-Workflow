@@ -139,6 +139,177 @@ public class ClockController {
    '```bash
    http://localhost:8080
 
+```
+
+
+# MavenProject format for Spring MVC
+
+```
+spring-rest-api/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── springrestapi/
+│   │   │               ├── SpringRestApiApplication.java
+│   │   │               │
+│   │   │               ├── config/
+│   │   │               │   ├── SecurityConfig.java
+│   │   │               │   ├── SwaggerConfig.java
+│   │   │               │   └── DatabaseConfig.java
+│   │   │               │
+│   │   │               ├── controller/
+│   │   │               │   ├── UserController.java
+│   │   │               │   ├── ProductController.java
+│   │   │               │   └── AuthController.java
+│   │   │               │
+│   │   │               ├── service/
+│   │   │               │   ├── UserService.java
+│   │   │               │   ├── ProductService.java
+│   │   │               │   └── impl/
+│   │   │               │       ├── UserServiceImpl.java
+│   │   │               │       └── ProductServiceImpl.java
+│   │   │               │
+│   │   │               ├── repository/
+│   │   │               │   ├── UserRepository.java
+│   │   │               │   └── ProductRepository.java
+│   │   │               │
+│   │   │               ├── model/
+│   │   │               │   ├── entity/
+│   │   │               │   │   ├── User.java
+│   │   │               │   │   ├── Product.java
+│   │   │               │   │   └── BaseEntity.java
+│   │   │               │   │
+│   │   │               │   └── dto/
+│   │   │               │       ├── request/
+│   │   │               │       │   ├── UserRequestDto.java
+│   │   │               │       │   └── ProductRequestDto.java
+│   │   │               │       │
+│   │   │               │       └── response/
+│   │   │               │           ├── UserResponseDto.java
+│   │   │               │           ├── ProductResponseDto.java
+│   │   │               │           └── ApiResponse.java
+│   │   │               │
+│   │   │               ├── exception/
+│   │   │               │   ├── GlobalExceptionHandler.java
+│   │   │               │   ├── ResourceNotFoundException.java
+│   │   │               │   ├── BadRequestException.java
+│   │   │               │   └── CustomException.java
+│   │   │               │
+│   │   │               ├── security/
+│   │   │               │   ├── JwtTokenProvider.java
+│   │   │               │   ├── JwtAuthenticationFilter.java
+│   │   │               │   └── CustomUserDetailsService.java
+│   │   │               │
+│   │   │               ├── mapper/
+│   │   │               │   ├── UserMapper.java
+│   │   │               │   └── ProductMapper.java
+│   │   │               │
+│   │   │               ├── validator/
+│   │   │               │   ├── UserValidator.java
+│   │   │               │   └── ProductValidator.java
+│   │   │               │
+│   │   │               └── util/
+│   │   │                   ├── DateUtil.java
+│   │   │                   └── Constants.java
+│   │   │
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── application-dev.properties
+│   │       ├── application-prod.properties
+│   │       ├── application-test.properties
+│   │       │
+│   │       ├── db/
+│   │       │   └── migration/
+│   │       │       ├── V1__Create_user_table.sql
+│   │       │       ├── V2__Create_product_table.sql
+│   │       │       └── V3__Insert_sample_data.sql
+│   │       │
+│   │       ├── static/
+│   │       │   ├── css/
+│   │       │   ├── js/
+│   │       │   └── images/
+│   │       │
+│   │       └── templates/
+│   │           └── email/
+│   │               └── welcome.html
+│   │
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── example/
+│                   └── springrestapi/
+│                       ├── SpringRestApiApplicationTests.java
+│                       ├── controller/
+│                       │   ├── UserControllerTest.java
+│                       │   └── ProductControllerTest.java
+│                       ├── service/
+│                       │   ├── UserServiceTest.java
+│                       │   └── ProductServiceTest.java
+│                       └── repository/
+│                           ├── UserRepositoryTest.java
+│                           └── ProductRepositoryTest.java
+│
+├── .gitignore
+├── pom.xml
+├── README.md
+├── Dockerfile
+└── docker-compose.yml
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

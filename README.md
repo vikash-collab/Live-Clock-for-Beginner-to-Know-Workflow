@@ -143,7 +143,7 @@ public class ClockController {
 
 
 
-# MavenProject format for Spring MVC
+# MavenProject format for Spring Boot REST API
 
 ```
 spring-rest-api/
@@ -262,7 +262,24 @@ spring-rest-api/
 ```
 
 
+I've created a comprehensive folder structure for a Spring Boot REST API with database integration. Here's what each major component does:
+Key Layers:
 
+controller/ - REST endpoints that handle HTTP requests
+service/ - Business logic layer
+repository/ - Data access layer (interfaces extending JpaRepository)
+model/entity/ - JPA entities mapped to database tables
+model/dto/ - Data Transfer Objects for requests and responses
+config/ - Configuration classes (security, database, Swagger)
+exception/ - Custom exceptions and global exception handler
+security/ - JWT authentication and authorization components
+mapper/ - Convert between entities and DTOs
+validator/ - Custom validation logic
+
+Resources:
+
+application.properties - Configuration for different environments
+db/migration/ - Database migration scripts (for Flyway/Liquibase)
 
 
 

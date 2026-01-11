@@ -60,7 +60,7 @@ setInterval(updateClock, 1000);
 
 // Call immediately when page loads
 updateClock();
-
+```
 
 ---
 
@@ -78,6 +78,7 @@ public class ClockController {
                 .format(DateTimeFormatter.ofPattern("HH:mm:ss"));
     }
 }
+```
 
 ## 🕒 Live Clock – Explanation & Execution Flow
 
@@ -136,10 +137,10 @@ public class ClockController {
    ```bash
    mvn spring-boot:run
 3. Open your browser and navigate to:
-   '```bash
+   ```bash
    http://localhost:8080
+   ```
 
-```
 
 
 # MavenProject format for Spring MVC
